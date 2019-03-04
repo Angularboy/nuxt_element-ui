@@ -1,0 +1,22 @@
+{
+  "name": "nuxt_test",
+  "version": "1.0.0",
+  "description": "My grand Nuxt.js project",
+  "author": "liuyiqiao",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env BASE_URL=https://devpc.17wawawa.com nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "cross-env BASE_URL=https://www.111.com nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
